@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Выбери свой Cruzer</title>
+        <script src="jquery-2.1.1.min.js"></script>
+        <script src="jquery.cookie.js"></script>
+        <script src="jquery.dotdotdot.min.js"></script>
+        <script src="jquery.maskedinput.js"></script>
+        <script src="CruzerShopNew.js"></script>
+        <link rel="stylesheet" type="text/css" href="CruzerShopNew.css">
+<!--         Yandex.Metrika counter -->
+        <script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            try {
+                var yaCounter26863800 = new Ya.Metrika({ id: 26863800, webvisor: true, clickmap: true, accurateTrackBounce: true });
+            } catch (e) {
+            }
+        </script>
+        <noscript><div><img src="//mc.yandex.ru/watch/26863800" style="position: absolute; left: -9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+<!--        start Mixpanel -->
+        <script type="text/javascript">(function (f, b) { if (!b.__SV) { var a, e, i, g; window.mixpanel = b; b._i = []; b.init = function (a, e, d) { function f(b, h) { var a = h.split("."); 2 == a.length && (b = b[a[0]], h = a[1]); b[h] = function () { b.push([h].concat(Array.prototype.slice.call(arguments, 0))) } } var c = b; "undefined" !== typeof d ? c = b[d] = [] : d = "mixpanel"; c.people = c.people || []; c.toString = function (b) { var a = "mixpanel"; "mixpanel" !== d && (a += "." + d); b || (a += " (stub)"); return a }; c.people.toString = function () { return c.toString(1) + ".people (stub)" }; i = "disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" "); for (g = 0; g < i.length; g++) f(c, i[g]); b._i.push([a, e, d]) }; b.__SV = 1.2; a = f.createElement("script"); a.type = "text/javascript"; a.async = !0; a.src = "//cdn.mxpnl.com/libs/mixpanel-2.2.min.js"; e = f.getElementsByTagName("script")[0]; e.parentNode.insertBefore(a, e) } })(document, window.mixpanel || []); mixpanel.init("e26fb467d43b458203da069229d7f829");</script>
+        <!--     end Mixpanel -->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-56465653-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body class="workspace">
+        <img class="fake-img" src="" style="position: absolute; top: -9999px;"/>
+        <header class="header">
+            <div class="header-content">
+                <img class="logo" src="http://cruzershop.ru/CrafterLogo.jpg" />
+                <div class="header__contacts">
+                    <div class="contacts__phone">8 (919) 086-08-83</div>
+                    <div class="btn--orange contacts__order-recall-btn">Заказать звонок</div>
+                    <div class="btn--orange contacts__payment-way-btn">Способы оплаты</div>
+                </div>
+                <div class="line-end header__line-end--left"></div>
+                <div class="line-end header__line-end--right"></div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="head-banner">
+                    Cruzer (Cruiser) - это дочерний бренд знаменитой корейской компании Crafter, занимающийся производством недорогих электрогитар. Эти гитары гораздо более устойчивы к перепадам температуры и влажности, а также к механическим повреждениям, чем любые модели из той же ценовой категории, и могут потягаться по этому показателю с куда более дорогими брендами. То же можно сказать и про их звучание: в ценовом диапазоне до 15.000 рублей им определённо нет равных.<br />
+                    К каждой гитаре, купленной у нас, Вы получаете набор медиаторов и комплект струн в подарок. На все инструменты действует гарантия в течение года от производителя.<br />
+                    Остались какие-то вопросы? Нужна помощь в выборе инструмента? Позвоните нам по телефону +7-919-086-08-83 или закажите звонок и мы перезвоним в течение часа.<br />
+            </div>
+            <div id="10" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="4" src="http://cruzershop.ru/Img/Main/ST-200 SB.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="6" value="http://cruzershop.ru/Img/Reserve/ST-200 GR.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="11" value="http://cruzershop.ru/Img/Reserve/ST-200 L-GR.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/ST-200 BK.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="3" value="http://cruzershop.ru/Img/Reserve/ST-200 RD.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="4" value="http://cruzershop.ru/Img/Reserve/ST-200 SB.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="7" value="http://cruzershop.ru/Img/Reserve/ST-200 PN.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="6" value="http://cruzershop.ru/Img/Main/ST-200 GR.png">
+                    <input type="hidden" class="left__img__main" data-color-id="11" value="http://cruzershop.ru/Img/Main/ST-200 L-GR.png">
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/ST-200 BK.png">
+                    <input type="hidden" class="left__img__main" data-color-id="3" value="http://cruzershop.ru/Img/Main/ST-200 RD.png">
+                    <input type="hidden" class="left__img__main" data-color-id="4" value="http://cruzershop.ru/Img/Main/ST-200 SB.png">
+                    <input type="hidden" class="left__img__main" data-color-id="7" value="http://cruzershop.ru/Img/Main/ST-200 PN.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer ST-200</div>
+                    <div class="description__full-description hide">
+                        Пожалуй, лучшая гитара для новичка в своём ценовом диапазоне, Cruzer ST-200 сочетает в себе отличное звучание, лёгкость и удобство. Едва ли у этой модели есть конкуренты в её ценовой категории. Ищете первый инструмент, на котором можно учиться играть, искать своё направление? ST-200 это именно то, что нужно.<br /><br />
+                        Электрогитара CRUZER ST-200 основана на спецификациях популярной модели Fender Fat Strat с хамбакером в бриджевой позиции, который позволяет получить более жесткое и плотное звучание, особенно при игре с перегрузом. Рекомендуется для более тяжелых стилей музыки – хард-рок, панк, гранж и современной альтернативной музыки.<br /><br />
+                        Характер звучания гитары ST-200 формирует в первую очередь материал корпуса – американская липа с её отличным балансом по всему частотному диапазону делает звук певучим и мягким. Кленовый гриф с палисандровой накладкой обеспечивает звуку яркость без чрезмерной звонкости. Электроника включает в себя два сингла и хамбакер, а 5-позиционный переключатель и традиционный для стратокастера набор ручек управления позволяют максимально использовать различные варианты звучания, делая инструмент еще более универсальным.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Крепление грифа: на болтах<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен<br />
+                        Накладка: палисандр<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: S+S+H<br />
+                        Потенциометры: 1V+2T+5-поз. переключатель<br />
+                        Машинка: Vintage Tremolo<br />
+                        Мензура: 648 мм (25 1/2")
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price--before-discount">6 300 руб.</div>
+                    <div class="description__price">6 000 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="6" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="10" src="http://cruzershop.ru/Img/Main/LS-750 CH.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="10" value="http://cruzershop.ru/Img/Reserve/LS-750 CH.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="12" value="http://cruzershop.ru/Img/Reserve/LS-750 GL.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="10" value="http://cruzershop.ru/Img/Main/LS-750 CH.png">
+                    <input type="hidden" class="left__img__main" data-color-id="12" value="http://cruzershop.ru/Img/Main/LS-750 GL.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer LS-750</div>
+                    <div class="description__full-description hide">
+                        Без тени сомнения LS-750 можно назвать самой универсальной и многогранной гитарой из всего модельного ряда CRUZER, которая одинаково хорошо подойдет для игры в самых различных стилях, будь это блюз, хэви-метал, фолк или джаз.<br /><br />
+                        Электрогитары типа Gibson Les Paul являются одними из самых популярных в мире и любимыми как профессионалами, так и начинающими. «Лес пол» CRUZER LS-750 хорошо передает характер оригинальных Gibson с их долгим сустейном благодаря вклеенному грифу и фиксированному бриджу, и мягким теплым звуком маломензурного инструмента. <br /><br />
+                        Два закрытых хамбакера с хромированными крышками управляются 3-позиционным переключателем и независимыми ручками громкости и тембра для каждого звукоснимателя. Корпус из американской липы с ее равномерной отдачей по всем частотам гитарного диапазона отлично дополняется кленовым топом, придающим звучанию инструмента яркость, а нотам читаемость. Гриф с палисандровой накладкой идеально сочетается с декой золотистой или санбёрстовой декой, цветами первых Les Paul Standard.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Вклеенный гриф<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен<br />
+                        Накладка: палисандр<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: H+H<br />
+                        Потенциометры: 2V+2T+3-поз. переключатель<br />
+                        Машинка: TOM/Stop Tailpiece<br />
+                        Мензура: 24 3/4"
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">10 500 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="12" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="2" src="http://cruzershop.ru/Img/Main/RX-720.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/RX-720.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/RX-720.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer RX-720</div>
+                    <div class="description__full-description hide">
+                        Электрогитары CRUZER RX-720 – отличный выбор для настоящих металлистов! «Зловещая» форма корпуса типа Warlock с заостренными краями и черная фурнитура придают гитаре поистине брутальный вид, а два мощных хамбакера для жесткого и плотного перегруза – это основа хэви-метал саунда. <br /><br />
+                        Американская липа, из которой выполнен корпус, как нельзя лучше подходит для тяжелых стилей музыки, выдвигая даже сильно перегруженный звук гитары на первый план. Надежный фиксированный бридж Tune-o-matic со струнодержателем Stop Tailpiece улучшают сустейн и лучше держат строй даже после мощнейших риффов и стремительных соло.<br /><br />
+                        Удобный 3-позиционный переключатель, расположенный между ручками громкости и тембра, не оставляет шанса на промах, а значит переключать бриджевый и нэковый звукосниматели можно буквально не глядя. Электрогитара CRUZER RX-720 отличается от моделей RX-700 матовой отделкой корпуса черного цвета, что не только придает ей еще более мрачный готический вид, но и отчасти влияет на звук, делая его более открытым. <br /><br />
+                        К тому же, матовый лак не бликует, а значит все ваши сценические фото будут такими, какими вы их задумали. Добавьте сюда черные хамбакеры, черную фурнитуру и накладку на гриф из темного палисандра, и сам Князь Тьмы не откажется от такого «оружия».
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Крепление грифа: на болтах<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен<br />
+                        Накладка: палисандр<br />
+                        Черная фурнитура<br />
+                        Звукосниматели: H+H<br />
+                        Потенциометры: 1V+1T+3-поз. переключатель<br />
+                        Машинка: TOM/Stop Tailpiece<br />
+                        Мензура: 648 мм (25 1/2")<br />
+                        Матовая отделка<br />
+                        Цвет: Матовый черный (GMT.BK)
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">9 000 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="9" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="5" src="http://cruzershop.ru/Img/Main/TC-250 YE.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="5" value="http://cruzershop.ru/Img/Reserve/TC-250 YE.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/TC-250 BK.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="5" value="http://cruzershop.ru/Img/Main/TC-250 YE.png">
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/TC-250 BK.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer TC-250</div>
+                    <div class="description__full-description hide">
+                        Благодаря своей универсальности, эта модель идеально подходит начинающим музыкантам, которым только предстоит найти свой музыкальный стиль. TC-250 замечательно зазвучит в рок-музыке, блюзе, фанке, джазе и даже тяжёлых металлических стилях. Электрогитара CRUZER TC-250, несомненно, заинтересует поклонников «винтажного» звучания и эстетики легендарного Fender Telecaster. <br /><br />
+                        Корпус этого телекастера выполнен из американской липы, а гриф – из клена с палисандровой накладкой. Даже учитывая более скромные по сравнению со стратокастерами CRUZER серии ST регулировки в виде 3-позиционного переключателя и по одной общей ручке для тембра и громкости, установленные на гитару два сингла tele-style обеспечат любой желаемый оттенок звучания.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Крепление грифа: на болтах<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен<br />
+                        Накладка: палисандр<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: TC (S+S) Set<br />
+                        Потенциометры: 1V+1T+3-поз. переключатель<br />
+                        Машинка: Bridge-Tailpiece TC<br />
+                        Мензура: 648 мм (25 1/2")
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price--before-discount">7 000 руб.</div>
+                    <div class="description__price">6 300 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="8" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="2" src="http://cruzershop.ru/Img/Main/RV-800.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/RV-800.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/RV-800.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer RV-800</div>
+                    <div class="description__full-description hide">
+                        Электрогитара CRUZER RV-800, как и «зловещая» серия RX, порадует поклонников экстремальных форм. И в данном случае – это вариация «стрелы» Jackson RR (Randy Rhoads) c одним укороченным рогом, что не только уменьшает вес гитары, но и позволяет комфортно играть сидя.<br /><br />
+                        Корпус гитары традиционно выполнен из американской липы, обладающей певучим характером звучания с хорошей гитарной серединой, что особенно заметно при игре с перегрузом. Гриф из клена со скоростным профилем добавляет звучанию гитары яркости, а палисандровая накладка смягчает особо высокие обертона.<br /><br />
+                        Два хамбакера с 3-позиционным переключателем дают необходимые для тяжелой музыки оттенки звучания, сохраняя при этом простоту управления. Классическое одностороннее тремоло позволит избежать сложностей при замене струн и настройке гитары, которые неизменно возникают у начинающих музыкантов с системами Floyd Rose.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Крепление грифа: на болтах<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен<br />
+                        Накладка: палисандр<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: H+H<br />
+                        Потенциометры: 1V+1T+3-поз. переключатель<br />
+                        Машинка: Vintage Tremolo<br />
+                        Мензура: 648 мм (25 1/2")
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">9 300 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+            
+            <div id="4" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="10" src="http://cruzershop.ru/Img/Main/CJR-600FM OR.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="10" value="http://cruzershop.ru/Img/Reserve/CJR-600FM OR.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="3" value="http://cruzershop.ru/Img/Reserve/CJR-600FM RD.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/CJR-600FM BK.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="10" value="http://cruzershop.ru/Img/Main/CJR-600FM OR.png">
+                    <input type="hidden" class="left__img__main" data-color-id="3" value="http://cruzershop.ru/Img/Main/CJR-600FM RD.png">
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/CJR-600FM BK.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer CJR-600</div>
+                    <div class="description__full-description hide">
+                        Электрогитары типа суперстрат стали следующей ступенью эволюции классического Fender Stratocaster на заре популярности хэви-метала и шрэда в начале 80-х. Для удобства скоростной игры и комфортного доступа к последним ладам музыкантам требовались более эргономичные контуры гитары с острыми рогами в духе нынешних Ibanez RG и Jackson Soloist и более тонкий гриф, а также наличие хамбакеров для более агрессивного и плотного звука на перегрузе.<br /><br />
+                        Гитары CRUZER CJR-600 во многом схожи с младшими моделями 400-й серии, но есть значимые отличия. И основное – это наличие на корпусе из американской липы выпуклого топа из волнистого или тигрового клена, придающего гитаре более дорогой внешний вид. При такой конструкции корпус из липы отвечает за долгий сустейн и резонанс с хорошей гитарной серединой, а топ добавляет чистую атаку и яркость. Положительно влияют на атаку и сам кленовый гриф, закрепленный на болтах, и одностороннее тремоло, хорошо передающее колебания струн на корпус. Палисандровая накладка грифа добавляет звуку богатства и насыщенности, а также хорошо вписывается в общую концепцию дизайна, эстетично дополненную хромированной фурнитурой.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Корпус: липа с топом из тигрового клена<br />
+                        Гриф: клен, на болтах<br />
+                        Накладка на гриф: палисандр<br />
+                        Количество ладов: 22<br />
+                        Мензура: 648 мм<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: H-S-H<br />
+                        Регулировки: 1V+1T, 5-позиционный переключатель звукоснимателей<br />
+                        Машинка: Vintage Tremolo
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">9 900 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="13" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="2" src="http://cruzershop.ru/Img/Main/RX-700.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/RX-700.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/RX-700.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer RX-700</div>
+                    <div class="description__full-description hide">
+                        Электрогитары CRUZER RX-700 – отличный выбор для настоящих металлистов! «Зловещая» форма корпуса типа Warlock с заостренными краями и черная фурнитура придают гитаре поистине брутальный вид, а два мощных хамбакера для жесткого и плотного перегруза – это основа хэви-метал саунда.<br /><br />
+                        Американская липа, из которой выполнен корпус, как нельзя лучше подходит для тяжелых стилей музыки, выдвигая даже сильно перегруженный звук гитары на первый план.<br /><br />
+                        Надежный фиксированный бридж Tune-o-matic со струнодержателем Stop Tailpiece улучшают сустейн и хорошо держат строй даже после мощнейших риффов и стремительных соло. Удобный 3-позиционный переключатель, расположенный между ручками громкости и тембра, не оставляет шанса на промах, а значит переключать бриджевый и нэковый звукосниматели можно буквально не глядя.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Крепление грифа: на болтах<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен<br />
+                        Накладка: палисандр<br />
+                        Черная фурнитура<br />
+                        Звукосниматели: H+H<br />
+                        Потенциометры: 1V+1T+3-поз. переключатель<br />
+                        Машинка: TOM/Stop Tailpiece<br />
+                        Мензура: 648 мм (25 1/2")<br />
+                        Матовая отделка<br />
+                        Цвет: Матовый черный (GMT.BK)
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price--before-discount">9 600 руб.</div>
+                    <div class="description__price">8 900 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+            
+            <div id="1" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="9" src="http://cruzershop.ru/Img/Main/CJ-400 GR.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/CJ-400 BK.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="9" value="http://cruzershop.ru/Img/Reserve/CJ-400 GR.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/CJ-400 BK.png">
+                    <input type="hidden" class="left__img__main" data-color-id="9" value="http://cruzershop.ru/Img/Main/CJ-400 GR.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer CJ-400</div>
+                    <div class="description__full-description hide">
+                        Электрогитары типа суперстрат стали следующей ступенью эволюции классического Fender. Эти модели завоевали популярность по всему миру благодаря удобству и универсальности их форму. Cruzer CJ-400 предлагает музыкантам плотное жёсткое звучание, так необходимое для хард-рока и различных метал- направлений. При этом эта гитара остаётся лёгкой, удобной и потрясающе стойкой к влажности и перепадам температур, а значит, она прослужит своему владельцу верой и правдой долгие годы.<br /><br />
+                        Гитара CRUZER CJ-400 продолжает традиции суперстратов с их удобством и универсальностью. Корпус гитары выполнен из американской липы c её певучим звучанием, кленовый гриф добавляет яркости и атаки, а палисандровая накладка делает звук более разборчивым, приглушая излишне высокие обертона. Набор звукоснимателей из 2 хамбакеров и 1 сингла с 5-позиционным переключателем позволяет получить максимально разнообразное звучание и использовать инструмент в самых различных стилях.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Корпус: массив американской липы<br />
+                        Гриф: клен, на болтах<br />
+                        Накладка: палисандр<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: H+S+H<br />
+                        Потенциометры: 1V+1T+5-поз. переключатель<br />
+                        Машинка: Vintage Tremolo<br />
+                        Мензура: 648 мм (25 1/2")
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">8 300 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+            
+            <div id="2" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="3" src="http://cruzershop.ru/Img/Main/CJ-400 LH.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="3" value="http://cruzershop.ru/Img/Reserve/CJ-400 LH.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="3" value="http://cruzershop.ru/Img/Main/CJ-400 LH.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer CJ-400LH</div>
+                    <div class="description__full-description hide">
+                        Электрогитары типа суперстрат стали следующей ступенью эволюции классического Fender Stratocaster на заре популярности хэви-метала и шрэда в начале 80-х. Для удобства скоростной игры и комфортного доступа к последним ладам музыкантам требовались более эргономичные контуры гитары с острыми рогами в духе нынешних Ibanez RG и Jackson Soloist и более тонкий гриф, а также наличие хамбакеров для более агрессивного и плотного звука на перегрузе.<br /><br />
+                        Гитара CRUZER CJ-400 продолжает традиции суперстратов с их удобством и универсальностью. Корпус гитары выполнен из американской липы c её певучим звучанием, кленовый гриф добавляет яркости и атаки, а палисандровая накладка делает звук более разборчивым, приглушая излишне высокие обертона. Набор звукоснимателей из 2 хамбакеров и 1 сингла с 5-позиционным переключателем позволяет получить максимально разнообразное звучание и использовать инструмент в самых различных стилях.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Крепление грифа: на болтах<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клён<br />
+                        Накладка: палисандр<br />
+                        Черная фурнитура<br />
+                        Звукосниматели: H+S+H<br />
+                        Потенциометры: 1V+1T+5-поз. переключатель<br />
+                        Машинка: Vintage Tremolo<br />
+                        Мензура: 648 мм (25 1/2")<br />
+                        Матовое покрытие
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">8 700 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="5" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="4" src="http://cruzershop.ru/Img/Main/LJ-550.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="4" value="http://cruzershop.ru/Img/Reserve/LJ-550.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="4" value="http://cruzershop.ru/Img/Main/LJ-550.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer LJ-550</div>
+                    <div class="description__full-description hide">
+                        Электрогитара CRUZER LJ-550 несомненно понравится поклонникам старых Gibson Melody Maker, да и всем любителям мелодичных блюзовых соло и мягких балладных арпеджио. Корпус выполнен из липы, которую характеризует певучее и ровное звучание с хорошей гитарной серединой, но не последнюю роль здесь играют и звукосниматели. Два сингла типа P-90 заметно отличаются по звучанию от хамбакеров своей яркостью и прозрачностью, а по сравнению с традиционными синглами имеют более мощный выходной сигнал.<br /><br />
+                        Кленовый гриф добавляет звуку прозрачности и прекрасно фокусирует энергию, направляя ее на корпус, а палисандровая накладка прекрасно смягчает излишние высокие гармоники, делая звук богаче в основном тоне. Сам гриф вклеен в корпус, что вместе с фиксированным бриджем положительно сказывается на сустейне. Мягкому и глубокому звучанию способствует и уменьшенная мензура – здесь она, как и у большинства гитар подобного типа, 24,75”.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Вкленный гриф<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен<br />
+                        Накладка: палисандр<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: S+S(P-90)<br />
+                        Потенциометры: 2V+1T+3-поз. переключатель<br />
+                        Машинка: TOM/Stop Tailpiece<br />
+                        Мензура: 24 3/4"
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">8 600 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="7" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="2" src="http://cruzershop.ru/Img/Main/RE-920.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/RE-920.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/RE-920.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer RE-920</div>
+                    <div class="description__full-description hide">
+                        Несмотря на массивность самой формы электрогитар типа Gibson Explorer, модель CRUZER RE-920 имеет небольшой вес благодаря липе, из которой выполнен корпус. Инструмент характеризует мощное сбалансированное звучание и соответствующий стилю внешний вид. 2 хамбакера с 3-позиционным переключателем обеспечивают жесткий и насыщенный звук на любом уровне перегруза, что делает эти гитары незаменимыми для исполнения тяжелой музыкии<br /><br />
+                        Фиксированный бридж обеспечивает хороший сустейн и надёжный строй, а две независимые ручки громкости и общий тембр обеспечивают простой и эффективный контроль над характером звучания. Электрогитара CRUZER RE-920 отличается от моделей RE-900 матовой отделкой корпуса и черной фурнитурой, что придает ей мрачный готический вид. Подобный дизайн отлично сочетается с явным предназначением этой модели – хэви-метал и другие экстремальные стили.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Крепление грифа: на болтах<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен<br />
+                        Накладка: палисандр<br />
+                        Черная фурнитура<br />
+                        Звукосниматели: H+H<br />
+                        Потенциометры: 2V+1T+3-поз. переключатель<br />
+                        Машинка: TOM/Stop Tailpiece<br />
+                        Мензура: 648 мм (25 1/2")<br />
+                        Матовая отделка
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">9 600 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="11" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="4" src="http://cruzershop.ru/Img/Main/ST-120 SB.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="4" value="http://cruzershop.ru/Img/Reserve/ST-120 SB.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="3" value="http://cruzershop.ru/Img/Reserve/ST-120 RD.png">
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/ST-120 BK.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="4" value="http://cruzershop.ru/Img/Main/ST-120 SB.png">
+                    <input type="hidden" class="left__img__main" data-color-id="3" value="http://cruzershop.ru/Img/Main/ST-120 RD.png">
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/ST-120 BK.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer ST-120</div>
+                    <div class="description__full-description hide">
+                        Эта доступная копия знаменитой электрогитары Fender Stratocaster прекрасно подойдет для игры в различных нетяжелых стилях вроде рока, блюза или фанка. Корпус CRUZER ST-120 выполнен из американской липы, которая обладает мягким и певучим звучанием, хорошо сбалансированным по всему доступному диапазону частот.<br /><br />
+                        Кленовый гриф с креплением на болтах усиливает атаку и отлично фокусирует энергию на корпусе, добавляя звучанию инструмента яркости и прозрачности, а накладка из палисандра делает звук богаче в основных тонах, приглушая излишне высокие гармоники. Три звукоснимателя-сингла вместе с 5-позиционным переключателем, двумя ручками тембра и общей ручкой громкости обеспечивают большой выбор оттенков звучания, а машинка Vintage Tremolo на 6 болтах позволяет шире использовать различные приемы игры.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Крепление грифа на болтах<br />
+                        Корпус – массив американской липы<br />
+                        Гриф – клен<br />
+                        Накладка – палисандр<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: S+S+S<br />
+                        Потенциометры: 1V+2T+5-поз. переключатель<br />
+                        Машинка: Vintage Tremolo<br />
+                        Мензура: 648 мм (25 1/2")
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">5 700 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="3" class="guitar-offer">
+                <div class="guitar-offer__img">
+                    <img class="galka hide" src="http://cruzershop.ru/Galka.png" />
+                    <img class="guitar-img" data-color-id="2" src="http://cruzershop.ru/Img/Main/CJ-420.png">
+
+                    <input type="hidden" class="left__img__reserve" data-color-id="2" value="http://cruzershop.ru/Img/Reserve/CJ-420.png">
+
+                    <input type="hidden" class="left__img__main" data-color-id="2" value="http://cruzershop.ru/Img/Main/CJ-420.png">
+                </div>
+                <div class="guitar-offer__description">
+                    <div class="description__name">Cruzer CJ-420</div>
+                    <div class="description__full-description hide">
+                        Электрогитары типа суперстрат стали следующей ступенью эволюции классического Fender Stratocaster на заре популярности хэви-метала и шрэда в начале 80-х. Для удобства скоростной игры и комфортного доступа к последним ладам музыкантам требовались более эргономичные контуры гитары с острыми рогами в духе нынешних Ibanez RG и Jackson Soloist и более тонкий гриф, а также наличие хамбакеров для более агрессивного и плотного звука на перегрузе.<br /><br />
+                        От суперстратов CJ-400 модель CRUZER CJ-420 отличается стильным матовым покрытием корпуса черного цвета и черной фурнитурой, что, несмотря на универсальность звучания гитары, придает ей внешнюю брутальность, подходящую для имиджа метал-гитариста.<br /><br />
+                        Технически здесь все те же 2 хамбакера и 1 сингл на корпусе из американской липы с кленовым грифом, что в итоге дает звучанию инструмента плотность и разборчивость средних частот, делая гитару прекрасным инструментом для быстрых и певучих соло. Простое и надежное тремоло Vintage, 5-позиционный переключатель и общие ручки тембра и громкости помогут украсить ваши партии особыми приемами и подобрать индивидуальный характер звучания.
+                    </div>
+                    <div class="description__short-description"></div>
+                    <div class="description__tech-description hide">
+                        Электрогитара под левую руку (для левшей)<br />
+                        Корпус: массив американской липы<br />
+                        Гриф: клен, на болтах<br />
+                        Накладка: палисандр<br />
+                        Хромированная фурнитура<br />
+                        Звукосниматели: H+S+H<br />
+                        Потенциометры: 1V+1T+5-поз. переключатель<br />
+                        Машинка: Vintage Tremolo<br />
+                        Мензура: 648 мм (25 1/2")
+                    </div>
+                    <div class="description__more">Узнать больше...</div>
+                    <div class="description__price">8 700 руб.</div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        Мы позвоним в течение часа
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            ИП Шорников Дмитрий Сергеевич,
+            г. Тула, ул. Металлургов, д.49в, кв.56,
+            ИНН 710505721835,
+            ОГРН 312715436000024
+            <div class="line-end footer__line-end--left"></div>
+            <div class="line-end footer__line-end--right"></div>
+        </footer>
+        <div class="popup-layout hide">
+            <div class="popup">
+                <div class="popup-left__img-block">
+                    <img class="popup-left__img" src="" />
+                </div>
+                <div class="popup-colors">
+                    <div class="popup-colors__color popup-colors__color__white hide" data-color-id="1" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__black hide" data-color-id="2" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__red hide" data-color-id="3" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__sunburst hide" data-color-id="4" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__yellow hide" data-color-id="5" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__green hide" data-color-id="6" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__pink hide" data-color-id="7" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__blue hide" data-color-id="8" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__gum hide" data-color-id="9" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__orange hide" data-color-id="10" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__light-green hide" data-color-id="11" data-img-url=""></div>
+                    <div class="popup-colors__color popup-colors__color__gold hide" data-color-id="12" data-img-url=""></div>
+                </div>
+                <div class="popup-right">
+                    <div class="popup__name"></div>
+                    <div class="popup-right__navigation">
+                        <div class="navigation__btn selected navigation__summary">Описание</div>
+                        <div class="navigation__btn navigation__tech">Характеристики</div>
+                    </div>
+                    <div class="popup-right__description"></div>
+                    <div class="popup-right__description-tech hide"></div>
+                    <div class="popup-right__price"></div>
+                    <div class="btn--orange description__buy-btn">Купить</div>
+                    <div class="description__order-call hide">
+                        <input type="text" class="order-call__phone-input" />
+                        <div class="order-call__btn order-call__btn--submit"></div>
+                        <img class="order-call__btn order-call__btn--discard" src="http://cruzershop.ru/exit.png" />
+                    </div>
+                </div>
+                <img class="popup__exit" src="http://cruzershop.ru/exit.png"/>
+            </div>
+        </div>
+        <!--        нет времени все делать правильно...-->
+        <div class="popup-layout-confirm hide">
+            <div class="popup-confirm">
+                <div class="popip-confirm__best-choice">Отличный выбор!</div>
+                <div style="line-height: 45px;">
+                    Наш телефон <b>+7 (919) 086-08-83</b>.<br />
+                    Мы позвоним в течение часа.
+                </div>
+                <div class="btn--orange popup-confirm__submit">Ок</div>
+            </div>
+        </div>
+        <!--        нет времени все делать правильно...-->
+        <div class="popup-layout-pay-way hide">
+            <div class="popup-pay-way">
+                Оплатить заказ можно одним из следующих способов:<br />
+                - банковский перевод на расчётный счёт организации;<br />
+                - Яндекс-Деньги;<br />
+                - перевод средств на карточку в одном из трёх банков: Сбербанк, Банк Москвы, Газпромбанк.<br />
+                <br />
+                По факту получения денег, мы высылаем скан подписанного товарного чека с печатью, оригинал чека отправляется вместе с гитарой. На все гитары действует гарантия от производителя в течение 1 года со дня оплаты покупки.
+                <br />
+                Мы отправляем заказы по всей России. Вы можете выбрать для доставки любую удобную транспортную компанию. Мы рекомендуем работать с компанией "Деловые Линии".<br />
+                <br />
+                У них сайте (<a href="http://www.dellin.ru" target="_blank">http://www.dellin.ru</a>) реализован удобный сервис для расчёта стоимости доставки. Мы находимся в Туле: выбирайте Тулу в поле "Откуда" и свой город в поле "Куда". Ставьте приблизительный вес 5 килограммов и объём 0.1 кубометр. Если Вы живёте в Туле или Тульской Области, доставка будет бесплатной.<br />
+                <br />
+                По опыту работы можем приблизительно сказать, что доставка по Европейской части России стоит около 300 рублей, по Сибири около 500-700, за пересылку на Дальний Восток придётся заплатить чуть меньше тысячи.<br />
+                <br />
+                Если что-то осталось неясным или имеются какие-то сомнения, свяжитесь с нами по телефону +7-919-086-08-83 или напишите на электронную почту cruzershop.ru@gmail.com
+                <img class="popup-pay-way__exit" src="http://cruzershop.ru/exit.png" />
+            </div>
+        </div>
+        <!--        нет времени все делать правильно...-->
+        <div class="popup-layout-recall hide">
+            <div class="popup-recall">
+                <div style="font-size: 20px; margin-bottom: 10px; text-align: center;">Мы позвоним в течение часа.</div>
+                <div class="description__order-call">
+                    <input type="text" class="order-call__phone-input" />
+                    <div class="order-call__btn order-call__btn--submit"></div>
+                </div>
+                <div class="submit-recall hide">
+                    <p style="font-size: 20px; margin: 0;">Ваша заявка принята.</p>
+                    <div class="btn--orange popup-confirm__submit" style="margin-top: 13px;">Ок</div>
+                </div>
+                <img class="popup-recall__exit" src="http://cruzershop.ru/exit.png" />
+            </div>
+        </div>
+    </body>
+</html>
